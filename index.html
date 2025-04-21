@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <title>Jawaban Tugas Praktikum #4</title>
@@ -9,21 +10,26 @@
             line-height: 1.6;
             margin: 30px;
         }
+
         pre {
             background-color: #f4f4f4;
             padding: 10px;
             border-left: 4px solid #333;
             overflow-x: auto;
         }
+
         code {
             font-family: Consolas, monospace;
         }
+
         h1, h2 {
             color: #333366;
         }
     </style>
 </head>
+
 <body>
+
     <h1>Tugas Praktikum #4 - Pemrograman Web 23S1IF04</h1>
     <p><strong>Tanggal:</strong> 14 April 2025</p>
     <hr>
@@ -56,6 +62,26 @@ if (cheese === "cheddar") {
 for (let key in buku) {
     console.log(key + ": " + buku[key]);
 }</code></pre>
+
+    <h2>4. Operasi Try - Catch - Finally</h2>
+    <p>Menangani error dengan try-catch-finally dan menampilkan pesan yang sesuai:</p>
+    <pre><code>const number = 100, text = 'a';
+
+try {
+    console.log(number / text); // NaN
+    console.log(a); // ReferenceError karena 'a' tidak didefinisikan
+} catch (err) {
+    console.log("An error caught");
+    console.log("Error message: " + err);
+} finally {
+    console.log("Finally will execute every time");
+}
+
+// Output:
+// NaN
+// An error caught
+// Error message: ReferenceError: a is not defined
+// Finally will execute every time</code></pre>
 
 </body>
 </html>
