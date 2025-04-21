@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Jawaban Tugas Praktikum #4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 30px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 4px solid #333;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, monospace;
+        }
+        h1, h2 {
+            color: #333366;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tugas Praktikum #4 - Pemrograman Web 23S1IF04</h1>
+    <p><strong>Tanggal:</strong> 14 April 2025</p>
+    <hr>
+
+    <h2>1. Array (Opsional)</h2>
+    <p>Menghapus elemen pertama dari array:</p>
+    <pre><code>let array = [1, 2, 3, "halo", false, true];
+array.shift(); // Menghapus elemen pertama
+console.log(array);
+// Output: [2, 3, "halo", false, true]</code></pre>
+
+    <h2>2. Operasi Conditional</h2>
+    <p>Memeriksa apakah cheese adalah cheddar:</p>
+    <pre><code>let cheese = "cheddar";
+
+if (cheese === "cheddar") {
+    console.log("Yay! Cheese available for making cheese on toast.");
+} else {
+    console.log("No cheese on toast for you today.");
+}</code></pre>
+
+    <h2>3. Operasi Looping</h2>
+    <p>Melakukan looping pada properti dalam objek:</p>
+    <pre><code>const buku = {
+    judul: "Harry Potter and The Philosopher's Stone",
+    pengarang: "J. K. Rowling",
+    tahun: 1997
+};
+
+for (let key in buku) {
+    console.log(key + ": " + buku[key]);
+}</code></pre>
+
+</body>
+</html>
